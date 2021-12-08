@@ -1,110 +1,242 @@
-{ 
+{
   "mapsData": [
-    {   "id":1,
-        "coordinates": [
-          -95.29017448425293,
-          41.64931448003169
-        ]
+    {
+      "id": 1,
+      "name": "C-1",
+      "date": "2018-05-01",
+      "groundElevation": "249",
+      "description": "Poorly graded gravel with sand and clay",
+      "properties": "Loose and soft ground",
+      "classification": "GP",
+      "blowCounts": "23",
+      "coordinates": [
+        -95.29017448425293,
+        41.64931448003169
+      ]
     },
     {
       "id": 2,
-        "type": "Point",
-        "coordinates": [
-          -95.28124809265137,
-          41.65335485542299
-        ] 
+      "name": "C-2",
+      "date": "2018-05-01",
+      "groundElevation": "250",
+      "description": "Fat clay with sand, brown to gray brown.",
+      "properties": "Hard, moist angular to rounded gravel.",
+      "classification": "CH",
+      "blowCounts": "32",
+      "coordinates": [
+        -95.28124809265137,
+        41.65335485542299
+      ]
     },
     {
-        "id":3,
-        "coordinates": [
-          -95.2748966217041,
-          41.65636893867821
-        ]
-      
+      "id": 3,
+      "name": "C-3",
+      "date": "2018-05-01",
+      "groundElevation": "245",
+      "description": "Gravelly lean clay with sand, dark grey and brown",
+      "properties": "moist, hard",
+      "classification": "CL",
+      "blowCounts": "36",
+      "coordinates": [
+        -95.2748966217041,
+        41.65636893867821
+      ]
     },
     {
-        "id":4,
-        "coordinates": [
-          -95.26365280151366,
-          41.65438094215332
-        ]
+      "id": 4,
+      "name": "C-4",
+      "date": "2018-05-02",
+      "groundElevation": "246",
+      "description": "Lean Clay with sand, dark brown",
+      "properties": "dry to moist hard,very fine to medium sand",
+      "classification": "CL",
+      "blowCounts": "36",
+      "coordinates": [
+        -95.26365280151366,
+        41.65438094215332
+      ]
     },
     {
-        "id":5,
-        "coordinates": [
-          -95.25712966918945,
-          41.66040887158474
-        ]
+      "id": 5,
+      "name": "C-5",
+      "date": "2018-05-02",
+      "groundElevation": "247",
+      "description": "Poorly graded gravel, with sand and clay",
+      "properties": "Loose and soft ground",
+      "classification": "GP",
+      "blowCounts": "24",
+      "coordinates": [
+        -95.25712966918945,
+        41.66040887158474
+      ]
     },
     {
-        "id":6,
-        "coordinates": [
-          -95.25283813476562,
-          41.66771858216167
-        ]
+      "id": 6,
+      "name": "C-6",
+      "date": "2018-05-02",
+      "groundElevation": "247",
+      "description": "Fat clay with sand, brown to gray brown.",
+      "properties": "Hard, moist angular to rounded gravel.",
+      "classification": "CH",
+      "blowCounts": "32",
+      "coordinates": [
+        -95.25283813476562,
+        41.66771858216167
+      ]
     },
     {
-        "id":7,
-        "coordinates": [
-          -95.24245262145996,
-          41.67265537326585
-        ]
+      "id": 7,
+      "name": "C-7",
+      "date": "2018-05-04",
+      "groundElevation": "245",
+      "description": "Silty sand with gravel, light gray.",
+      "properties": "Moist, very loose",
+      "classification": "SM",
+      "blowCounts": "13",
+      "coordinates": [
+        -95.24245262145996,
+        41.67265537326585
+      ]
     },
     {
-        "id":8,
-        "coordinates": [
-          -95.23721694946289,
-          41.67913033045833
-        ]
+      "id": 8,
+      "name": "C-8",
+      "date": "2018-05-04",
+      "groundElevation": "248",
+      "description": "Well graded gravel, with sand. Fine to medium grained",
+      "properties": "Dry to moist, loose, weak cementation",
+      "classification": "GW",
+      "blowCounts": "10",
+      "coordinates": [
+        -95.23721694946289,
+        41.67913033045833
+      ]
     },
     {
-        "id": 9,
-        "coordinates": [
-          -95.2335262298584,
-          41.68682250216048
-        ]
+      "id": 9,
+      "name": "C-9",
+      "date": "2018-05-04",
+      "groundElevation": "248",
+      "description": "Brown silty clay with some fine sand partings.",
+      "properties": "Medium stiff to stiff",
+      "classification": "CH",
+      "blowCounts": "20",
+      "coordinates": [
+        -95.2335262298584,
+        41.68682250216048
+      ]
     },
     {
-        "id":10,
-        "coordinates": [
-          -95.21953582763672,
-          41.69259102747174
-        ]
+      "id": 10,
+      "name": "C-10",
+      "date": "2018-05-04",
+      "groundElevation": "246",
+      "description": "Grey silty clay with some organic matter",
+      "properties": "soft to medium stiff",
+      "classification": "CH",
+      "blowCounts": "15",
+      "coordinates": [
+        -95.21953582763672,
+        41.69259102747174
+      ]
     },
     {
-        "id":11,
-        "coordinates": [
-          -95.37059783935547,
-          41.66650035469305
-        ]
+      "id": 11,
+      "name": "C-11",
+      "date": "2018-05-05",
+      "groundElevation": "258",
+      "description": "Poorly graded gravel, with sand and clay, olive gray, brown, medium dense.",
+      "properties": "Very fine to medium",
+      "classification": "GP",
+      "blowCounts": "17",
+      "coordinates": [
+        -95.37059783935547,
+        41.66650035469305
+      ]
     },
     {
-        "id":12,
-        "coordinates": [
-          -95.38673400878906,
-          41.676245528999615
-        ]
+      "id": 12,
+      "name": "C-12",
+      "date": "2018-05-05",
+      "groundElevation": "256",
+      "description": "Poorly graded gravel, with sand and clay.",
+      "properties": "Very fine to medium",
+      "classification": "GP",
+      "blowCounts": "16",
+      "coordinates": [
+        -95.38673400878906,
+        41.676245528999615
+      ]
     },
     {
-        "id":13,
-        "coordinates": [
-          -95.39737701416016,
-          41.6908605241911
-        ]
+      "id": 13,
+      "name": "C-13",
+      "date": "2018-05-05",
+      "groundElevation": "257",
+      "description": "Fat clay with sand, brown to gray brown.",
+      "properties": "Moist, hard, very fine to medium sand",
+      "classification": "CH",
+      "blowCounts": "23",
+      "coordinates": [
+        -95.39737701416016,
+        41.6908605241911
+      ]
     },
     {
-        "id":14,
-        "coordinates": [
-          -95.41351318359375,
-          41.70777900286713
-        ]
+      "id": 14,
+      "name": "C-14",
+      "date": "2018-05-05",
+      "groundElevation": "259",
+      "description": "Gravelly lean clay with sand, dark gray-brown and brown.",
+      "properties": "Moist, hard.",
+      "classification": "CL",
+      "blowCounts": "23",
+      "coordinates": [
+        -95.41351318359375,
+        41.70777900286713
+      ]
     },
     {
-        "id":15,
-        "coordinates": [
-          -95.3554916381836,
-          41.6536755092821
-        ]
+      "id": 15,
+      "name": "C-15",
+      "date": "2018-05-05",
+      "groundElevation": "255",
+      "description": "Poorly graded gravel with sand and clay, gray and brown.",
+      "properties": "Medium dense, medium sand.",
+      "classification": "GP",
+      "blowCounts": "20",
+      "coordinates": [
+        -95.3554916381836,
+        41.6536755092821
+      ]
+    },
+    {
+      "name": "T-25",
+      "date": "2021-12-05",
+      "groundElevation": "567",
+      "description": "clay",
+      "properties": "hard",
+      "classification": "cl",
+      "blowCounts": "12",
+      "coordinates": [
+        "-95.29781341552733",
+        "41.68598922797279"
+      ],
+      "id": 16
+    },
+    {
+      "name": "T-26",
+      "date": "2021-12-01",
+      "groundElevation": "567",
+      "description": "sand",
+      "properties": "wet",
+      "classification": "p",
+      "blowCounts": "23",
+      "coordinates": [
+        "-95.35240173339842",
+        "41.72366806458552"
+      ],
+      "id": 17
     }
   ]
 }
