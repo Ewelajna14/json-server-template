@@ -209,34 +209,7 @@
         -95.3554916381836,
         41.6536755092821
       ]
-    },
-    {
-      "name": "T-25",
-      "date": "2021-12-05",
-      "groundElevation": "567",
-      "description": "clay",
-      "properties": "hard",
-      "classification": "cl",
-      "blowCounts": "12",
-      "coordinates": [
-        "-95.29781341552733",
-        "41.68598922797279"
-      ],
-      "id": 16
-    },
-    {
-      "name": "T-26",
-      "date": "2021-12-01",
-      "groundElevation": "567",
-      "description": "sand",
-      "properties": "wet",
-      "classification": "p",
-      "blowCounts": "23",
-      "coordinates": [
-        "-95.35240173339842",
-        "41.72366806458552"
-      ],
-      "id": 17
     }
+     
   ]
 }

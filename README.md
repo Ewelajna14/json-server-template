@@ -1,12 +1,13 @@
-# JSON Server Template
+# JSON Server 
 
 ## Setup
 
-Fork and clone this repo. Then install the dependencies by running:
+Fork and clone this repo. 
+https://github.com/Ewelajna14/json-server-template
 
-```sh
+Then install the dependencies by running:
 npm install
-```
+
 
 ## Seeding Data
 
@@ -15,21 +16,35 @@ with a key pointing to an array of data, like this:
 
 ```json
 {
-  "toys": [
+  "mapsData": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "C-1",
+      "date": "2018-05-01",
+      "groundElevation": "249",
+      "description": "Poorly graded gravel with sand and clay",
+      "properties": "Loose and soft ground",
+      "classification": "GP",
+      "blowCounts": "23",
+      "coordinates": [
+        -95.29017448425293,
+        41.64931448003169
+      ]
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "C-2",
+      "date": "2018-05-01",
+      "groundElevation": "250",
+      "description": "Fat clay with sand, brown to gray brown.",
+      "properties": "Hard, moist angular to rounded gravel.",
+      "classification": "CH",
+      "blowCounts": "32",
+      "coordinates": [
+        -95.28124809265137,
+        41.65335485542299
+      ]
     }
-  ]
-}
 ```
 
 Then, run `npm run seed` to copy data from the `db/seeds.json` file to the
@@ -43,18 +58,10 @@ losing!
 
 ## Running the Server Locally
 
-To run your server in development mode, run:
+To run your server run
 
-```sh
-npm run dev
-```
+json-server --port 4000 --watch db.json
 
-While running in development mode, the server will re-load any time you make
-changes to the `db.json` file, so you can test our your seed data.
-
-While your server is running, you can make requests to
-[http://localhost:3000](http://localhost:3000). Check it out in the browser to
-make sure your server works!
 
 ## Deploying the Server
 
